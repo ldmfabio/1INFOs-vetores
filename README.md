@@ -9,7 +9,7 @@ Para recuperar os itens de uma lista, utilizamos os vetores, indicando, numerica
 
 | Posição | Produto |
 | :---: | :--- |
-| 0 | Abacaxi |
+| 0 | Acerola |
 | 1 | Banana |
 | 2 | Laranja |
 | 3 | Melancia |
@@ -56,7 +56,7 @@ Podemos também atribuir o valor de uma posição do array para uma const/let/va
 ```javascript
 const primeiroItem = listaCompras[0];
 ```
-Considerando os itens descritos na Tabela, o conteúdo da const primeiroItem será **"Abacaxi"**.
+Considerando os itens descritos na Tabela, o conteúdo da const primeiroItem será **"Acerola"**.
 
 Também existem alguns outros métodos que podem ser utilizados, tais quais:
 | Método | Utilidade |
@@ -74,7 +74,7 @@ Imagine os seguintes exemplos:
 * *const* **itemRemovido** = listaCompras.splice(2, 1);
   * A partir do terceiro item da lista (correspondente com o número 2 do método splice), retirará um item (correspondente com o número 1 do método splice). Portanto, **itemRemovido** terá o conteúdo ["Laranja"], enquanto que o array original, **listaCompras**, será atualizado para ["Acerola", "Banana", "Melancia"];
 
-Para order os elementos do array, existem métodos que ordenam os itens de forma crescente e de forma decrescente.
+Para ordenar os elementos do array, existem métodos que ordenam os itens de forma crescente e de forma decrescente.
 
 ***Após ordenar, não será possível retornar para a sequência anterior.***
 
