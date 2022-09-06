@@ -184,8 +184,8 @@ Portanto, considerando a lógica para Joinville, temos que considerar substituir
 * [Developer.mozilla - Array](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)
 * [W3Schools - JavaScript Arrays](https://www.w3schools.com/js/js_arrays.asp)
 * [DevMedia - JavaScript Arrays](https://www.devmedia.com.br/javascript-arrays/4079)
-* [Bognar Junior](https://bognarjunior.wordpress.com/2015/01/12/string-javascript-metodos/)
-* [Alura](https://www.alura.com.br/artigos/strings-com-javascript-o-que-sao-e-como-manipular)
+* [Bognar Junior - STRING JAVASCRIPT – MÉTODOS.](https://bognarjunior.wordpress.com/2015/01/12/string-javascript-metodos/)
+* [Alura - Strings com JavaScript: o que são e como manipulá-las](https://www.alura.com.br/artigos/strings-com-javascript-o-que-sao-e-como-manipular)
 
 ##### Vídeos de apoio
 * [Código Fonte TV](https://www.youtube.com/watch?v=NfHVPEzo5Ik)
