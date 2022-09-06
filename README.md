@@ -128,3 +128,69 @@ Ao executar esta instrução, o retorno será:
 **["S", "o", "l", "e", "t", "r", "a", "n", "d", "o"]**
 
 Ou seja, ele cria um array contendo todas as letras do parâmetro enviado para o método **from()**;
+
+## Outros métodos relevantes
+
+### ***concat()***
+
+Imagine os dois arrays abaixo:
+* *const* **frutas**  = ["Maçã", "Laranja", "Banana"];
+* *const* **vegetais** = ["Tomate", "Cenoura", "Cebola"];
+
+Para unir o conteúdo dos dois em apenas um array, é possível usar o método concat(), conforme descrito abaixo:
+```javascript
+const listaGeral = frutas.concat(vegetais);
+```
+O resultado será um array contendo todos os elementos dos dois arrays, sendo que nas primeiras posições estarão os elementos do array frutas. O conteúdo do array **listaGeral** será:
+
+**["Maçã", "Laranja", "Banana", "Tomate", "Cenoura", "Cebola"];**
+
+### ***lastIndexOf()***
+Assim como o método indexOf(), aqui adiciona-se a palavra *last*. Ou seja, retornará a última posição do caractere indicado no parâmetro para a utilização deste método. Considere o exemplo abaixo:
+```javascript
+const fruta = "banana";
+const ultimaLetraA = fruta.lastIndexOf("a");
+```
+Assim, o valor que deverá ter na *const* **ultimaLetraA** será **5**.
+
+### ***search()***;
+Usa-se passando um parâmetro para fazer busca, mas com um pedaço de texto para buscar em uma frase. Considere o exemplo abaixo:
+```javascript
+const frase = "Olá mundo!";
+const posicaoTexto = frase.search("mun");
+```
+O valor que será atribuído para a *const* **posicaoTexto** será **4**. Isso se deve ao fato de que o texto **"mun"** é encontrado na posição 4 no texto onde foi realizada a busca.
+
+### ***substr()***;
+Este método é utilizado para extrair conteúdo de uma string. São utilizados dois parâmetros: posição inicial e quantidade de caracteres a serem extraídos.
+Veja o exemplo abaixo:
+```javascript
+const frase = "Olá mundo!";
+const pedacoFrase = frase.substr(0, 3);
+```
+O conteúdo da *const* **pedacoFrase** será, portanto, **"Olá"**, pois, a partir da posição 0 (primeiro parâmetro do método substr) foram copiados três caracteres (segundo parâmetro do método substr).
+
+### ***replace()***
+O método replace() serve para substituir um texto em uma string. Imagine o exemplo abaixo:
+```javascript
+const tempoHoje = "Hoje está ensolarado!";
+const tempoHojeEmJoinville = tempoHoje.replace("ensolarado", "chuvoso");
+```
+Portanto, considerando a lógica para Joinville, temos que considerar substituir a palavra "ensolarado" para "chuvoso". Assim, o valor da *const* **tempoHojeEmJoinville** será ***"Hoje está chuvoso!"***.
+
+
+##### Alguns links para estudos complementares
+
+* [Developer.mozilla - Array](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)
+* [W3Schools - JavaScript Arrays](https://www.w3schools.com/js/js_arrays.asp)
+* [DevMedia - JavaScript Arrays](https://www.devmedia.com.br/javascript-arrays/4079)
+* [Bognar Junior](https://bognarjunior.wordpress.com/2015/01/12/string-javascript-metodos/)
+* [Alura](https://www.alura.com.br/artigos/strings-com-javascript-o-que-sao-e-como-manipular)
+
+##### Vídeos de apoio
+* [Código Fonte TV](https://www.youtube.com/watch?v=NfHVPEzo5Ik)
+* [Trybe](https://www.youtube.com/watch?v=defBuY0nLrc)
+* [Dev Aprender](https://www.youtube.com/watch?v=5nm7lPwNroU)
+
+##### Dúvidas da comunidade sobre switch... case
+* [Stack Overflow - Creating arrays in Javascript](https://stackoverflow.com/questions/9543518/creating-arrays-in-javascript)
