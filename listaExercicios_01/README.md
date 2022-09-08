@@ -45,12 +45,20 @@ Pergunte ao usuário qual carro deseja ADICIONAR na lista.
 
 Apresente a lista antiga de SUVs e a nova lista, após a adição do veículo solicitado.
 
-## Problema 06: Procurar letra
-Peça para o usuário digitar UMA palavra.
+## Problema 06: Loja de veículos
+Crie os seguintes arrays:
 
-Peça para o usuário digitar a letra que deseja encontrar na palavra que acabou de digitar.
+let carrosSUV = ["Tiggo", "Sportage", "Tucson", "EcoSport"];
 
-Apresente para o usuário se a LETRA que ele quer procurar existe ou não na palavra digitada e qual a primeira posição da LETRA na PALAVRA.
+let cassosSedan = ["Civic", "Corolla", "Arizzo", "Fusion"];
+
+let carrosHatch = ["308", "Focus", "i30"];
+    
+Peça para o usuário informar mais três veículos para serem inseridos na lista.
+
+Para inserir na lista correta, peça também para o usuário identificar o tipo de veículo que deseja inserir, se é SUV, Sedan ou Hatch.
+
+Apresente a lista final de cada tipo de veículo.
 
 ## Problema 07: Acertar cor
 Crie o seguinte array, que contém sete elementos:
@@ -68,3 +76,10 @@ PARABÉNS! VOCÊ ESTÁ COM SORTE NA COR ${corInformada}!
 Caso não acerte, o programa deverá retornar:
 
 NÃO FOI DESSA VEZ... TENTE NOVAMENTE!
+
+## Problema 08: Procurar letra
+Peça para o usuário digitar UMA palavra.
+
+Peça para o usuário digitar a letra que deseja encontrar na palavra que acabou de digitar.
+
+Apresente para o usuário se a LETRA que ele quer procurar existe ou não na palavra digitada e qual a primeira posição da LETRA na PALAVRA.
