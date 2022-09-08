@@ -4,11 +4,18 @@
     //Retorne os elementos do array, separando-os por hífen (n1 - n2).
 
     //ENTRADA
-
+    const num1 = parseInt(prompt("Informe um número:"));
+    const num2 = parseInt(prompt("Informe outro número:"));
 
     //PROCESSAMENTO
-
+    let resultado = [];
+    if (num1 > num2) {
+        resultado = [num2, num1];
+    }
+    else {
+        resultado = [num1, num2];
+    }
 
     //SAÍDA
-    
+    document.write(resultado.join(" - "));
 </script>
